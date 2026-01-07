@@ -32,7 +32,7 @@ const numberInput = contactForm?.querySelector("[name='number']");
 
 let modal = null;
 
-// ======================= РЕЄСТРАЦІЯ =======================
+// ======================= Registrationgit status =======================
 registerBtn.addEventListener("click", () => {
   modal = basicLightbox.create(registerTemplate.innerHTML, {
     onShow: (instance) => {
@@ -71,7 +71,7 @@ async function onRegisterSubmit(event) {
   }
 }
 
-// ======================= ЛОГІН =======================
+// ======================= Login =======================
 loginBtn.addEventListener("click", () => {
   modal = basicLightbox.create(loginTemplate.innerHTML, {
     onShow: (instance) => {

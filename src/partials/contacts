@@ -1,0 +1,8 @@
+<section class="contacts-section" style="display: none">
+  <form class="contact-form">
+    <input name="name" placeholder="Contact Name" />
+    <input name="number" placeholder="Phone Number" />
+    <button type="submit">Add Contact</button>
+  </form>
+  <ul class="contacts-list"></ul>
+</section>
